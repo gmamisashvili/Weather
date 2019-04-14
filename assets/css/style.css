@@ -1,0 +1,182 @@
+body,
+body * {
+  font-family: Ubuntu;
+}
+
+.intro-section {
+  background-image: url("../imgs/svg/first-section-background.svg");
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  color: #fff;
+}
+
+.main-nav {
+  margin: 0 15%;
+  padding: 0;
+  color: white;
+  padding-top: 10px;
+}
+
+.navbar-logo-a {
+  width: 15%;
+}
+.logo-img {
+  width: 100%;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-li {
+  margin: 0 10px;
+}
+
+.social-icons-li > a {
+  height: 20px;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.social-icons-img {
+  height: 100%;
+}
+
+.intro-row {
+  margin: 80px 15% 0 15%;
+}
+
+/* intro left div */
+
+.intro-left-div {
+  color: #fff;
+}
+
+.intro-h1 {
+  word-spacing: 5px;
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.intro-p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  width: 70%;
+}
+
+.download-button {
+  background-color: #fc6a42;
+  width: 40%;
+  color: white;
+}
+
+.download-button:hover {
+  background-color: #e86541;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.features-button {
+  background-color: #4466c9;
+  width: 40%;
+  margin-left: 10px;
+  color: white;
+}
+
+.features-button:hover {
+  background-color: #334d98;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/* intro left div */
+
+/* intro right div */
+.mobile-img {
+  height: 500px;
+}
+
+.circle-temperature {
+  background-color: #fff;
+  right: -10px;
+  top: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;
+  color: #6ca3ff;
+}
+.circle-sunny {
+  position: absolute;
+  border-radius: 50%;
+  height: 90px;
+  background: #fc6a42;
+  left: -20px;
+  top: 45%;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-london {
+  position: absolute;
+  border-radius: 50%;
+  height: 90px;
+  background: #4466c9;
+  right: -20px;
+  top: 43%;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-rio {
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  background-color: #fcec64;
+  color: #648cff;
+}
+
+/* intro right div */
+
+.scrolldown-wrapper {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-scrolldown {
+  width: 50px;
+  height: 50px;
+}
+
+/* features section */
+
+.features-section {
+  margin: 30px 15% 0 15%;
+}
+
+.perfect-features-header {
+  color: #648cff;
+  font-family: UbuntuB;
+}
+
+.perfect-features-p {
+  color: #999999;
+}
+
+.perfect-features-headers {
+  font-size: 20px;
+}
+
+.perfect-features-p {
+  color: #aeaeae;
+}
+
+/* features section */
