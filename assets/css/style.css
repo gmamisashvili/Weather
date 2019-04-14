@@ -1,6 +1,14 @@
-body,
-body * {
+body {
+  background: linear-gradient(90deg, #eee 1%, transparent 1%) 1px 0, #fff;
+  background-size: 150px 1px;
   font-family: Ubuntu;
+}
+
+.line {
+  height: 100%;
+  margin-left: 10%;
+  width: 1px;
+  background: grey;
 }
 
 .intro-section {
@@ -158,6 +166,10 @@ body * {
 
 /* features section */
 
+.perfect-features-row {
+  margin-top: 100px;
+}
+
 .features-section {
   margin: 30px 15% 0 15%;
 }
@@ -175,8 +187,56 @@ body * {
   font-size: 20px;
 }
 
+.perfect-features-p-wrapper {
+  margin-bottom: 100px;
+}
+
 .perfect-features-p {
   color: #aeaeae;
 }
 
 /* features section */
+
+/* widgets row */
+
+.widgets-row {
+  margin-top: 100px;
+}
+
+.widgets-header-div {
+  color: #648cff;
+}
+
+.widgets-p-div {
+  margin-bottom: 100px;
+}
+
+.widgets-p {
+  color: #aeaeae;
+}
+
+.middle-widgets-div {
+  transform: scale(1.15);
+  z-index: 999;
+}
+
+.scroll-left-img {
+  margin-right: auto;
+  width: 28px;
+}
+
+.scroll-right-img {
+  margin-left: auto;
+  width: 28px;
+}
+
+/* widgets row */
+
+/* screenshot-div */
+
+.screenshot-div {
+  color: #648cff;
+  margin-top: 100px;
+}
+
+/* screenshot-div */
