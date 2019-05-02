@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(90deg, #eee 1%, transparent 1%) 1px 0, #fff;
+  background: linear-gradient(90deg, #ededf6 1%, transparent 1%) 1px 0, #fff;
   background-size: 150px 1px;
   font-family: Ubuntu;
 }
@@ -397,3 +397,76 @@ body {
 }
 
 /* quotes row */
+
+/* download-section */
+
+.download-section {
+  background: linear-gradient(90deg, #ededf6 1%, transparent 1%) 1px 0, #648cff;
+  background-size: 150px 1px;
+  font-family: Ubuntu;
+  margin-top: 150px;
+  color: #fff;
+  padding-top: 50px;
+}
+
+.download-row {
+  margin: 0 5% 0% 15%;
+  overflow: hidden;
+}
+
+.download-left {
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.download-header {
+  font-size: 26px;
+  font-family: UbuntuB;
+  margin-bottom: 25px;
+}
+
+.download-p {
+  line-height: 20px;
+  font-size: 16px;
+  margin-bottom: 25px;
+  width: 70%;
+}
+
+.stores-div {
+  width: fit-content;
+}
+
+.stores-imgs {
+  height: 45px;
+}
+
+.appstore {
+  margin-right: 10px;
+}
+
+.cloudy-download {
+  width: 35%;
+  position: absolute;
+  filter: blur(2px);
+  top: 35%;
+  z-index: 1;
+}
+
+.sunny-download {
+  width: 35%;
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  z-index: 2;
+}
+
+.rainy-download {
+  width: 35%;
+  position: absolute;
+  left: 60%;
+  filter: blur(2px);
+  top: 35%;
+  z-index: 1;
+}
+
+/* download-section */
