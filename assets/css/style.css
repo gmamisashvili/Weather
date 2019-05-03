@@ -232,16 +232,27 @@ body {
 .middle-widgets-div {
   transform: scale(1.15);
   z-index: 999;
+  order: 3;
 }
 
 .scroll-left-img {
   margin-right: auto;
   width: 28px;
+  order: 1;
 }
 
 .scroll-right-img {
   margin-left: auto;
   width: 28px;
+  order: 5;
+}
+
+.left-widgets-div {
+  order: 2;
+}
+
+.right-widgets-div {
+  order: 4;
 }
 
 /* widgets row */
@@ -500,9 +511,6 @@ body {
   margin: 0 15%;
   color: white;
   padding: 30px 0;
-}
-
-.footer-navbar-logo-a {
 }
 
 .logo-fun {
